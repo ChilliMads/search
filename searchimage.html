@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Image Search</title>
+    <!--We add Bootstap and CSS-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- The header where we link to the search side -->
+    <header>
+        <div class="header-links">
+            <a href="index.html">Search</a>
+        </div>
+    </header>
+    <!-- The functionality for the search image side, where the user can search for an image on google -->
+    <div class="container">
+        <div class="search-box">  
+            <form action="http://images.google.com/images">
+                <input type="text" name="q" class="search-input" placeholder="Search Google Images"> <!--“Network” inspector -->
+                <div class="button-container">
+                    <input type="submit" value="Google Search" class="search-button">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

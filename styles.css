@@ -1,0 +1,84 @@
+/* Here we set the default margin and padding of the body, H1, H2, H3, p, ul, li*/
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Here we set the default font family */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* The header Styles */
+header {
+    background-color: #fff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end; 
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Here the search field box appears centered with rounded corners */
+.search-box {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.search-input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Styles appear here for when you are on the Advanced search page */
+.advanced-search-box {
+    margin-top: 50px;
+}
+
+.form-group { 
+    margin-left: 400px;   
+}
+
+.text-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+h4{
+    margin-left: 200px;
+}
+
+/* The style for the Advanced Search button with is blue with white text and places under "find pages...."*/
+.advanced-button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 800px;
+}
